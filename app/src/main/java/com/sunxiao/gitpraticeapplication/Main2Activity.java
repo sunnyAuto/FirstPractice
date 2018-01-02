@@ -18,18 +18,18 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("print","onResume");
+        Log.e("println","onResume");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.e("print","onStop");
+        Log.e("life","onStop");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("print","onDestory");
+        Log.e("life","onDestory");
     }
 }
