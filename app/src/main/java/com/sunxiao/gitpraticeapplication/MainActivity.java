@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         initView();
     }
     private void initView(){
+        //github上添加注释
     }
 }
