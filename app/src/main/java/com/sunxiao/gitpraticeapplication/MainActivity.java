@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
     }
     private void initView(){
         //github上添加注释
+        Log.e("log","init");
     }
 }
