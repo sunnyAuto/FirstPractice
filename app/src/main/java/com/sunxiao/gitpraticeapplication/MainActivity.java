@@ -2,7 +2,6 @@ package com.sunxiao.gitpraticeapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,8 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
     }
-
-    private void initView() {
-        Log.e("init","init");
+    private void initView(){
+        //github上添加注释
     }
 }
