@@ -15,21 +15,4 @@ public class Main2Activity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.e("println","onResume");
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.e("life","onStop");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.e("life","onDestory");
-    }
 }
