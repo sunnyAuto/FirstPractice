@@ -8,6 +8,7 @@ import android.widget.TextView;
 public class Main2Activity extends AppCompatActivity {
     private TextView textView ;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        Log.e("ewew","dev");
     }
 
     @Override
