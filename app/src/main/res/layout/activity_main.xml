@@ -31,24 +31,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="但是快是喝ks;dlfk;sdfks;dflkslf;ksf;dskf;ldsfk;sfk;lds快是喝的舒服客户付款发货时刻发挥是开发和说课东方航fdsfks;dlfk;sdfks;dflkslf;ksf;dskf;ldsfk;sslf;ksf;dskf;ldsfk;sfk;lds是否接收复健科是否接收福建师范近段时间凤凰军事凤凰科技是否合适方法接口的回访客户方开始发送客户反馈司法考试佛塑科技发货时刻"
-                android:textSize="30sp"/>
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_below="@+id/text"/>
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_below="@+id/text"/>
-
         </RelativeLayout>
 
     </ScrollView>
