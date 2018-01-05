@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,14 +7,50 @@
     android:layout_height="match_parent"
     tools:context="com.sunxiao.gitpraticeapplication.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="主分支Main"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageButton
+        android:id="@+id/to_top"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@mipmap/ic_launcher_round"/>
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="368dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="但是快是喝ks;dlfk;sdfks;dflkslf;ksf;dskf;ldsfk;sfk;lds快是喝的舒服客户付款发货时刻发挥是开发和说课东方航fdsfks;dlfk;sdfks;dflkslf;ksf;dskf;ldsfk;sslf;ksf;dskf;ldsfk;sfk;lds是否接收复健科是否接收福建师范近段时间凤凰军事凤凰科技是否合适方法接口的回访客户方开始发送客户反馈司法考试佛塑科技发货时刻"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/text"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/button"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
