@@ -23,6 +23,8 @@ public class Main2Activity extends AppCompatActivity {
         super.onResume();
         Log.e("aaa","branch更改");
         Log.e("aaa","master新加");
+        Log.e("aaa","master新加2");
+        Log.e("aaa","master新加3");
     }
 
     @Override
