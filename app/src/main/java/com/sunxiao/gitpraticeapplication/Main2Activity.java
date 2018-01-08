@@ -13,18 +13,15 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        initBraanch();
 
     }
 
-    private void initBraanch() {
-        //branch新加
-    }
+
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("ewew","branch更改");
+        Log.e("ewew","master更改");
     }
 
     @Override
