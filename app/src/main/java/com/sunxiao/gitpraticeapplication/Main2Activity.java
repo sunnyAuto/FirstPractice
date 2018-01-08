@@ -21,7 +21,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("eaea","branch更改");
+        Log.e("aaa","branch更改");
     }
 
     @Override
